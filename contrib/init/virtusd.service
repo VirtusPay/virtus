@@ -1,0 +1,22 @@
+[Unit]
+Description=Virtus's distributed currency daemon
+After=network.target
+
+[Service]
+User=virtuscore
+Group=virtuscore
+
+Type=forking
+PIDFile=/var/lib/virtusd/virtusd.pid
+ExecStart=/usr/bin/virtusd -daemon -pid=/var/lib/virtusd/virtusd.pid \
+-conf=/etc/virtuscore/virtus.conf -datadir=/var/lib/virtusd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

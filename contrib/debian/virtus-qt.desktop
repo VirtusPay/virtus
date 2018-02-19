@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Virtus
+Comment=Virtus P2P Cryptocurrency
+Comment[fr]=Virtus, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Virtus, eşten eşe kriptografik sanal para birimi
+Exec=virtus-qt %u
+Terminal=false
+Type=Application
+Icon=virtus128
+MimeType=x-scheme-handler/virtus;
+Categories=Office;Finance;

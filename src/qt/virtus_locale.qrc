@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/virtus_bg.qm</file>
+        <file alias="de">locale/virtus_de.qm</file>
+        <file alias="en">locale/virtus_en.qm</file>
+        <file alias="es">locale/virtus_es.qm</file>
+        <file alias="fi">locale/virtus_fi.qm</file>
+        <file alias="fr">locale/virtus_fr.qm</file>
+        <file alias="it">locale/virtus_it.qm</file>
+        <file alias="ja">locale/virtus_ja.qm</file>
+        <file alias="pl">locale/virtus_pl.qm</file>
+        <file alias="pt">locale/virtus_pt.qm</file>
+        <file alias="ru">locale/virtus_ru.qm</file>
+        <file alias="sk">locale/virtus_sk.qm</file>
+        <file alias="sv">locale/virtus_sv.qm</file>
+        <file alias="vi">locale/virtus_vi.qm</file>
+        <file alias="zh_CN">locale/virtus_zh_CN.qm</file>
+        <file alias="zh_TW">locale/virtus_zh_TW.qm</file>
+    </qresource>
+</RCC>

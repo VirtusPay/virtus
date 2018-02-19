@@ -1,0 +1,6 @@
+usr/local/bin/virtus-qt usr/bin
+share/pixmaps/virtus32.xpm usr/share/pixmaps
+share/pixmaps/virtus16.xpm usr/share/pixmaps
+share/pixmaps/virtus128.png usr/share/pixmaps
+debian/virtus-qt.desktop usr/share/applications
+debian/virtus-qt.protocol usr/share/kde4/services/
