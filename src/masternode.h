@@ -251,7 +251,7 @@ public:
         return false;
     }
 
-    /// Is the input associated with collateral public key? (and there is 5000 VIRTUS - checking if valid masternode)
+    /// Is the input associated with collateral public key? (and there is 25000 VIRTUS - checking if valid masternode)
     bool IsInputAssociatedWithPubkey();
 
     bool IsValidNetAddr();
