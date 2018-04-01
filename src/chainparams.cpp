@@ -73,7 +73,7 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 131400; // every 0.5 year -15%
+        consensus.nSubsidyHalvingInterval = 262800; // every 0.5 year -15%
         consensus.nMasternodePaymentsStartBlock = 10000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 158000; // actual historical value
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // 17280 - actual historical value
@@ -93,8 +93,8 @@ public:
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x000009efce4c9dc78754763834d1c47adb7d83ebcb21d3219e14d1aa6e12dc91");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 2 * 60 * 60; // Virtus: 2 hour
-        consensus.nPowTargetSpacing = 2 * 60; // Virtus: 2 minutes
+        consensus.nPowTargetTimespan = 1 * 60 * 60; // Virtus: 1 hour
+        consensus.nPowTargetSpacing = 1 * 60; // Virtus: 1 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016

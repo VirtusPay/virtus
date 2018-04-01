@@ -1252,8 +1252,11 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
       else if (nPrevHeight < 7000) {
         nSubsidyBase = 13;
       }
-      else { //after 7000 start normal block reward
+      else if (nPrevHeight < 60000) {
         nSubsidyBase = 20;
+      }
+      else { //after 60000 hardfork for new economical model
+        nSubsidyBase = 10;
       }
 
     // LogPrintf("height %u diff %4.2f reward %d\n", nPrevHeight, dDiff, nSubsidyBase);
